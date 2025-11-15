@@ -25,6 +25,7 @@
 
         {# Global stylesheets #}
         <link rel="stylesheet" type="text/css" href="{% static 'css/output.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/landing_header.css' %}">
 
         {% block extra_css %}
         {# Override this in templates to add extra stylesheets #}
@@ -38,6 +39,7 @@
 
         {# Global javascript #}
         <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/landing_header.js' %}"></script>
         <script type="module" src="{% static 'js/hms.js' %}"></script>
 
         {% block extra_js %}
